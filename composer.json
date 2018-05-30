@@ -2,10 +2,10 @@
   "name": "bower-asset/jQuery-slimScroll",
   "description": "",
   "keywords": [
-    "css",
-    "js",
+    "jQuery",
+    "slimScroll"
   ],
   "homepage": "",
   "authors": [
-  ],
+  ]
 }
