@@ -362,7 +362,7 @@
           }
 
           // calculate actual scroll amount
-          percentScroll = parseInt(bar.css('top')) / (me.outerHeight() - bar.outerHeight());
+          percentScroll = parseInt(bar.css('top')) / (parseInt(me.outerHeight()) - parseInt(bar.outerHeight()));
           delta = percentScroll * (me[0].scrollHeight - me.outerHeight());
 
           if (isJump)
